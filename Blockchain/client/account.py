@@ -1,11 +1,7 @@
-""" 
-Copyright (c) 2021 Codiesalert.com
-These scripts should be used for commercial purpose without Codies Alert Permission
-Any violations may lead to legal action
-"""
+
 import sys
 
-sys.path.append("/Users/Vmaha/Desktop/Bitcoin")
+sys.path.append("/Users/taralthota/Desktop/first_pos/Blockchain-Implementation-in-Python-from-Scratch")
 from Blockchain.Backend.core.EllepticCurve.EllepticCurve import Sha256Point
 from Blockchain.Backend.util.util import hash160, hash256
 from Blockchain.Backend.core.database.database import AccountDB
